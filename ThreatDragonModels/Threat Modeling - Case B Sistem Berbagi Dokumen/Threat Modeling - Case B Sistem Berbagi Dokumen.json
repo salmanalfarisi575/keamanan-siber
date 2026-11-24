@@ -1,0 +1,29 @@
+{
+  "version": "2.6.2",
+  "release_version": "1.0",
+  "released_at": "",
+  "summary": {
+    "title": "Threat Modeling - Case B Sistem Berbagi Dokumen",
+    "owner": "Salman Alfarizi",
+    "description": "Sistem berbasis web yang digunakan organisasi untuk berbagi dokumen dengan pihak internal dan eksternal melalui tautan sementara yang berlaku selama 24 jam. Pengguna yang memiliki akun dapat mengunggah dokumen, membuat dan mencabut tautan berbagi, serta melihat tautan aktif. Penerima dapat membuka tautan tanpa login dan mengunduh dokumen melalui Document Backend. Metadata dokumen dan audit log disimpan di Metadata Database, sedangkan isi dokumen disimpan di Object Storage. Admin organisasi dapat memeriksa metadata dan audit log, tetapi secara default tidak dapat melihat isi dokumen.",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "DFD - Case B Document Sharing System",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.6.2",
+        "cells": [],
+        "description": "Data Flow Diagram sistem berbagi dokumen melalui tautan sementara yang berlaku selama 24 jam."
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
